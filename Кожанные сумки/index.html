@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content ="Кожанные сумки высокого качества">
+    <meta name = "keywords"  content= "Кожанные сумки">
+    <title>Интернет-магазин кожанных сумок</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    
+</head>
+<body>
+    <header class="header"> 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="header__left">
+                    <a href="#"><img src="img/logo.png" alt="logo"></a>
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        
+                        <li class="nav-item dropdown dropdown_catalog">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            КАТАЛОГ
+                        </a>
+                        
+                        <div class="dropdown-menu menu_catalog" aria-labelledby="navbarDropdownMenuLink">
+                            <span class="menu_catalog_square"></span>
+                            <ul class="menu_catalog_list">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12"><li><img src="catalog/img_1.jpg" alt="img"> <a href="#">Сумки</a>  </li></div>
+                                    <div class="col-lg-6 col-12"><li><img src="catalog/img_2.jpg" alt="img"> <a href="#"> Мужские сумки</a> </li></div>
+                                    <div class="col-lg-6 col-12"><li><img src="catalog/img_3.jpg" alt="img"> <a href="#"> Клатчи</a> </li></div>
+                                    <div class="col-lg-6 col-12"><li><img src="catalog/img_4.jpeg" alt="img"> <a href="#"> Рюкзаки</a> </li></div>
+                                    <div class=" col-12"><li><img src="catalog/img_5.jpg" alt="img"> <a href="#">Косметички</a>  </li></div>
+                                </div>       
+                            </ul>
+                        </div> 
+                        
+                        </li>
+                        <li class="nav-item dropdown dropdown_about">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            О КОМПАНИИ
+                            </a>
+                            <div class="dropdown-menu menu_about" aria-labelledby="navbarDropdownMenuLink">
+                                <span class="menu_about_square"></span>
+                                <a class="dropdown-item" href="#">О НАС</a>
+                                <a class="dropdown-item" href="#">ДОСТАВКА </a>
+                                <a class="dropdown-item" href="#">ВОЗВРАТ</a>
+                                <a class="dropdown-item" href="#">ГАРАНТИИ</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                    </div>
+                    </nav>
+                </div>
+
+                <div class="header__right">
+                    <div class="header__search">
+                        <div class="header__search_bg"></div>
+                        <div class="header__search_close"></div>
+                        <div class="header__form">
+                        <form action="#">
+                            <span class="header_square"></span>
+                            <input type="text" placeholder="Поиск" class="header__input">
+                            <button class="header__button"></button>
+                        </form>
+                        </div>
+                    </div>
+                    <div class="header__cart">
+                         <div class="header__cart_content">
+                            <span class="header__cart_number">0</span>
+                            <span class="header__cart_text">КОРЗИНА: </span>
+                            <span class="header__cart_rub">0.00 руб</span>
+                        </div> 
+                        <div class="header__cart_box">
+                            <div class="header__cart_close"></div>
+                            <div class="header__cart_product">
+                                <div class="header__cart_item">
+                                    <div class="row">
+                                        <div class="close"></div>
+                                        <div class="production">
+                                            <img src="catalog/img_1.jpg" alt="product">
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">Модель: 15</div>
+                                            <div class="price">1500 руб</div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <div class="header__cart_item">
+                                    <div class="row">
+                                        <div class="close"></div>
+                                        <div class="production">
+                                            <img src="catalog/img_2.jpg" alt="product">
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">Модель: 47</div>
+                                            <div class="price">2500 руб</div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="header__cart_item">
+                                    <div class="row">
+                                        <div class="close"></div>
+                                        <div class="production">
+                                            <img src="catalog/img_5.jpg" alt="product">
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">Модель: 165</div>
+                                            <div class="price">4570 руб</div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header__cart_result">Итого:  12340 руб</div>
+                            <div class="header__cart_button">
+                                <button  class="header__cart_button_basket">В корзину</button>
+                                <button  class="header__cart_button_order">Оформить заказ</button>
+                            </div>
+                           
+                        </div>                    
+                    </div>
+                   
+                    <div class="header__contact">
+                        <div class="header__phone"><a href="#">+7(495)-365-44-09</a></div>
+                        <div class="header__enter"><a href="#">Вход/Регистрация</a></div>
+                    </div>
+                </div>        
+            
+            </div>    
+        </div>       
+    </header>
+
+    <section class="main_title">
+        <div class="main_title_bg main_title_bg_1">
+            <h1>подарочная карта</h1>
+            <p>каждому покупателю</p>
+            <div class="details">
+                <div class="details-icon details-icon-gift"></div>
+                <p>при покупке от 2000руб</p>
+                <p class="red">только до 15 сентября</p>
+                <button class="details-btn">Узнать больше</button>
+               
+            </div>
+        </div>
+        <div class="main_title_bg main_title_bg_2">
+            <h1>Распродажа</h1>
+            <p>Кожанных сумок</p>
+            <div class="details">
+                <div class="details-icon details-icon-sale"></div>
+                <p>большой ассортимент и выгодные цены</p>
+                <p class="red"> в наличии и под заказ</p>
+                <button class="details-btn">Узнать больше</button>
+            </div>
+        </div>
+        <div class="main_title_bg main_title_bg_3">
+            <h1>Новая коллекция </h1>
+            <p>Зимних сумок</p>
+            <div class="details">
+                <div class="details-icon details-icon-basket"></div>
+                <p>15 моделей для яркой зимы</p>
+                <p class="red">от производителя Made in Russia</p>
+                <button class="details-btn">Узнать больше</button>
+            </div>
+
+        </div>
+       
+    </section>
+
+    <section class="main__info">
+        <div class="container-fluid">
+           <div class="row">
+               <div class="col-lg-4 col-md-6">
+                   <div class="main__item">  
+                       <a href="#"><img src="img/rukzak.png" alt="img"></a>  
+                       <a class="main__title">Рюкзаки</a>              
+                   </div>
+                   <div class="main__item">   
+                        <a href="#"><img src="img/bag.png" alt="img"></a>  
+                        <a class="main__title">Мужские<br>сумки</a>                  
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6 d-none d-xl-block">
+                <div class="main__item middle"> 
+                        <a href="#"><img src="img/girl_bag.png" alt="img"></a>  
+                        <a class="main__title">Сумки</a>                    
+                </div>
+               </div>
+
+               <div class="col-lg-4 col-md-6">
+                <div class="main__item"> 
+                    <a href="#"><img src="img/klatch.png" alt="img"></a>  
+                    <a class="main__title">Клатчи</a>                    
+                </div>
+                <div class="main__item"> 
+                    <a href="#"><img src="img/kosmetichka.png" alt="img"></a>  
+                    <a class="main__title">Косметички</a>                    
+                </div>
+               </div>
+           </div>
+        </div>
+    </section>
+
+    <section class="main__slider">
+        <div class="container">
+            <div class="title"><span>Новинки</span></div>
+            <div class="center">
+                <div>
+                    <div class="main__slide">
+                        <img src="catalog/img_6.jpg" alt="img">
+                        <p class="model">Модель: 78</p>
+                        <p class="price">2340P</p>
+                        <div class="main__basket">
+                            <button class="main__btn">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main__slide">
+                        <img src="catalog/img_7.jpg" alt="img">
+                        <p class="model">Модель: 118</p>
+                        <p class="price">2100P</p>
+                        <div class="main__basket">
+                            <button class="main__btn">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main__slide">
+                        <img src="catalog/img_8.jpg" alt="img">
+                        <p class="model">Модель: 108</p>
+                        <p class="price">1200P</p>
+                        <div class="main__basket">
+                            <button class="main__btn">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main__slide">
+                        <img src="catalog/img_9.jpg" alt="img">
+                        <p class="model">Модель: 23</p>
+                        <p class="price">3400P</p>
+                        <div class="main__basket">
+                            <button class="main__btn">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main__slide">
+                        <img src="catalog/img_10.jpg" alt="img">
+                        <p class="model">Модель: 08</p>
+                        <p class="price">2050P</p>
+                        <div class="main__basket">
+                            <button class="main__btn">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main__slide">
+                        <img src="catalog/img_11.jpg" alt="img">
+                        <p class="model">Модель: 178</p>
+                        <p class="price">2800P</p>
+                        <div class="main__basket">
+                            <button class="main__btn">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main__slide">
+                        <img src="catalog/img_13.jpg" alt="img">
+                        <p class="model">Модель: 38</p>
+                        <p class="price">2360P</p>
+                        <div class="main__basket">
+                            <button class="main__btn">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main__slide">
+                        <img src="catalog/img_14.jpg" alt="img">
+                        <p class="model">Модель: 46</p>
+                        <p class="price">2280P</p>
+                        <div class="main__basket">
+                            <button class="main__btn">В корзину</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+               
+        </div>
+    </section>
+    <section class="made">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="made__img">
+                        <img src="img/made_img.jpg" alt="made">
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="made__info">
+                        <div class="made__title">Производство женских сумок и <br>аксессуаров</div>
+                        <div class="made__subtitle">Это то, чем успешно занимается наша компания с 2001года</div>
+                        <div class="made__descr">С момента своего основания в 2001году и по сей день, наша компания Шанс, нацелена на производство недорогой и качественной кожгалантереи. За годы работы мы наладили тесные партнерские отношения с проверенными поставщиками материалов<br><br> Мы предлагаем сумки оптом от производителя</div>
+                        <button class="made__button">Узнать больше</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="top">
+        <div class="container-fluid">
+            <div class="title"><span>Хит продаж</span></div>
+        
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="main__slide">
+                    <img src="catalog/img_6.jpg" alt="img">
+                    <p class="model">Модель: 78</p>
+                    <p class="price">2340P</p>
+                    
+                    <div class="main__basket">
+                        <button class="main__btn">В корзину</button>  
+                        <button class="main__btn_in">В корзине</button>                    
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="main__slide">
+                    <img src="catalog/img_7.jpg" alt="img">
+                    <p class="model">Модель: 78</p>
+                    <p class="price">2340P</p>
+                    <div class="main__basket">
+                        <button class="main__btn">В корзину</button>
+                        <button class="main__btn_in">В корзине</button>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="main__slide">
+                    <img src="catalog/img_8.jpg" alt="img">
+                    <p class="model">Модель: 78</p>
+                    <p class="price">2340P</p>
+                    <div class="main__basket">
+                        <button class="main__btn">В корзину</button>
+                        <button class="main__btn_in">В корзине</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="main__slide">
+                    <img src="catalog/img_9.jpg" alt="img">
+                    <p class="model">Модель: 78</p>
+                    <p class="price">2340P</p>
+                    <div class="main__basket">
+                        <button class="main__btn">В корзину</button>
+                        <button class="main__btn_in">В корзине</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="main__slide">
+                    <img src="catalog/img_10.jpg" alt="img">
+                    <p class="model">Модель: 78</p>
+                    <p class="price">2340P</p>
+                    <div class="main__basket">
+                        <button class="main__btn">В корзину</button>
+                        <button class="main__btn_in">В корзине</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="main__slide">
+                    <img src="catalog/img_11.jpg" alt="img">
+                    <p class="model">Модель: 78</p>
+                    <p class="price">2340P</p>
+                    <div class="main__basket">
+                        <button class="main__btn">В корзину</button>
+                        <button class="main__btn_in">В корзине</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="main__slide">
+                    <img src="catalog/img_12.jpg" alt="img">
+                    <p class="model">Модель: 78</p>
+                    <p class="price">2340P</p>
+                    <div class="main__basket">
+                        <button class="main__btn">В корзину</button>
+                        <button class="main__btn_in">В корзине</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="main__slide">
+                    <img src="catalog/img_13.jpg" alt="img">
+                    <p class="model">Модель: 78</p>
+                    <p class="price">2340P</p>
+                    <div class="main__basket">
+                        <button class="main__btn">В корзину</button>
+                        <button class="main__btn_in">В корзине</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+   <section class="advantage">
+       <div class="container-fluid">
+        <div class="title"><span>Наши преимущества</span></div>
+       
+       <div class="row">
+           <div class="col-md-4 col-sm-6">
+               <div class="advantage__box">
+                <div class="advantage__icon"> <img src="img/thumb_up.png" alt="img"></div>
+                <div class="advantage__subtitle">Соотношение цена/качество</div>
+                <div class="advantage__descr">У нас собственное производство и можем предложить очень выгодные условия сотрудничества</div>
+               </div>
+               
+           </div>
+           <div class="col-md-4 col-sm-6">
+              <div class="advantage__box">
+                <div class="advantage__icon"> <img src="img/color_icon.png" alt="img"></div>
+                <div class="advantage__subtitle">Согласование материалов по цвету</div>
+                <div class="advantage__descr">Вы можете согласовать с нами материал,цвет и фактуру еще до начала производства</div>
+              </div>
+           </div>
+           <div class="col-md-4 col-sm-6">
+                <div class="advantage__box">
+                    <div class="advantage__icon"> <img src="img/file.png" alt="img"></div>
+                    <div class="advantage__subtitle">Контрактное производство</div>
+                    <div class="advantage__descr">Возможность контрактного производства</div>
+                </div>              
+           </div>
+           <div class="col-md-4 col-sm-6">
+                <div class="advantage__box">
+                    <div class="advantage__icon"> <img src="img/basket-buy.png" alt="img"></div>
+                    <div class="advantage__subtitle">Большой модельный ряд</div>
+                    <div class="advantage__descr">Мы можем предложить Вам большой модельный ряд и быструю  сменность моделей</div>
+                </div>
+           </div>
+           <div class="col-md-4 col-sm-6">
+                <div class="advantage__box">
+                    <div class="advantage__icon"> <img src="img/distribution.png" alt="img"></div>
+                    <div class="advantage__subtitle">Разработка и производство в России</div>
+                    <div class="advantage__descr">Малые транспортные издержки и быстрота доставки Вас приятно удивят</div>
+                </div>
+           </div>
+           <div class="col-md-4 col-sm-6">
+                <div class="advantage__box">
+                    <div class="advantage__icon"> <img src="img/select.png" alt="img"></div>
+                    <div class="advantage__subtitle">Продукция соответствует Госту</div>
+                    <div class="advantage__descr">Продукция соответствует требованиям ГОСТ и требованиям технического регламента</div>
+                </div>   
+           </div>
+       </div>
+    </div>
+   </section> 
+    <section class="contacts">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="contacts__catalog">
+                        <div class="contacts__title">Каталог</div>
+                        <nav class="contacts__nav">
+                            <ul>
+                                <li><a href="#">Рюкзаки</a></li>
+                                <li><a href="#">Мужские сумки</a></li>
+                                <li><a href="#">Сумки</a></li>
+                                <li><a href="#">Клатчи</a></li>
+                                <li><a href="#">Косметички</a></li>
+                            </ul>
+                        </nav>
+                    </div>                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contacts__about">
+                        <div class="contacts__title">О компании</div>                       
+                            <ul>
+                                <li><a href="#">О нас</a></li>
+                                <li><a href="#">Заказы</a></li>
+                                <li><a href="#">Партнерам</a></li>
+                            </ul>
+                    </div> 
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="contacts__list">
+                        <div class="contacts__title">Контакты</div>
+                        <ul>
+                            <li class="phone"><a href="tel:+79103654409"> +7(910)-365-44-09</a> </li>
+                            <li class="email"> <a href="mailto:shans@mail.ru">shans@mail.ru</a></li>
+                            <li class="place">г.Нижний Новгород ул Минина, 1a </li>
+                            <li class="times">пн-пт: с 10-00 до 19-00<br>
+                            выходной: Суббота-Воскресение</li>
+                        </ul>
+                     </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="contacts__social">
+                        <div class="contacts__title">Мы в соцсетях</div>
+                        <div class="contacts__item">
+                            <a href="#" class="facebook"></a>
+                            <a href="#" class="vk"></a>
+                            <a href="#" class="instagram"></a>
+                            <a href="#" class="google"></a>
+                        </div>
+                        
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <div class="rights">
+                        2020 Shans Все права защищены 
+                    </div>
+                </div>
+                <div class="col-6">
+                     <div class="my_link">
+                        <a href="#" target="blank">Дизайн и <span>разработка сайтов</span></a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модально окно при входе на сайт-->
+    <div class="overlay">
+        
+            <div class="modal" id="modal">
+                <div class="row">
+                    <div class="modal__close"></div>
+                    <div class="modal__in">
+    
+                        <div class="modal__in_title">Вход на сайт</div>
+                        <form action="#">
+                            <input class="entry" name="email"  type="email" placeholder="Введите ваш E-mail">
+                            <input class="entry" name="password"  type="text" placeholder="Введите ваш пароль"> 
+         
+                        </form>
+                        <div class="label">
+                            <input class="remember" name="remember" id="remember-field" type="checkbox" checked>
+                            <label for="remember-field">Запомнить данные</label>
+                            <a href="#">Забыли пароль?</a>
+                        </div>
+                        <button class="modal__in_button">Вход</button>
+                        
+                    </div>
+                             
+                    <div class="modal__new">
+                        <div class="modal__new_reg">Новый пользователь</div>
+                        <form action="#">
+                            <input class="entry" name="email"  type="email" placeholder="Введите ваш E-mail"> 
+                            <input class="entry" name="password"  type="text" placeholder="Введите ваш пароль">
+                            
+                        </form>
+                        <input class="remember" name="remember" id="remember-field" type="checkbox" checked>
+                        <label for="remember-field">Я согласен с <span>условиями использование и обработки моих персональных данных</span></label>
+                        <button class="modal__new_button">Регистрация</button>
+                    </div>
+                </div>
+                
+    
+            </div>
+        
+        <div class="modal__basket" id="modal__basket">
+            <div class="modal__close_basket"></div>
+            <div class="modal__title">Товар добавлен в корзину</div>
+                <div class="modal__box">
+                    <div class="modal__img">
+                        <img src="catalog/img_13.jpg" alt="img">
+                    </div>
+                    <div class="modal__descr">
+                        <p class="modal__model">Модель: 78</p>
+                        <p class="modal__price">2340P</p>
+                        <button class="modal__btn modal__btn_buy">Продолжить покупки</button>
+                        <button class="modal__btn modal__btn_basket">Перейти в корзину</button>
+                    </div>                    
+                </div>             
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
+     
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
